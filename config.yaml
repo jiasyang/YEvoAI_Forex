@@ -1,0 +1,160 @@
+env_type: "developing"
+developing:
+  #--------------------------------#
+  #     system configuration       #
+  #--------------------------------#
+  intervel_time: "1-day"
+  his_time_length: 40
+  initialDate: "1996-01-01"
+  curDate: "2019-04-16"
+
+
+  #--------------------------------#
+  #     Database configuration     #
+  #--------------------------------#
+  host: "192.168.1.133"
+  database: "TRADE_DB_UAT"
+  user: "root"
+  password: "123456"
+  port: 3306
+
+  #--------------------------------#
+  #     specifying data path       #
+  #--------------------------------#
+  #dataPath and outputPath use absolute path
+  dataPath: "D:\\temp\\YEvoAI_Forex\\data"
+  inputPath: "D:\\temp\\YEvoAI_Forex\\input"
+  outputPath: "D:\\temp\\YEvoAI_Forex\\output"
+  logPath: "D:\\temp\\YEvoAI_Forex\\logs"
+  modelPath: "D:\\temp\\YEvoAI_Forex\\model"
+  Rlibpath: ""
+
+  #--------------------------------#
+  #     data analytics             #
+  #--------------------------------#
+  his_daynum_set: [10,20,30,40,50]
+  #date_range_flg: 0  # 1: use the date range, 0 not use
+  date_range_flg: 0
+  initialDate_analytics: "2019-01-01"
+  endDate_analytics: "2019-05-10"
+  #--------------------------------#
+  #     logging                    #
+  #--------------------------------#
+  logging_level: "DEBUG"
+
+
+poc:
+  #--------------------------------#
+  #     system configuration       #
+  #--------------------------------#
+  intervel_time: "1-day"
+  his_time_length: 100
+  initialDate: "1996-01-01"
+  curDate: "2019-01-23"
+
+
+  #--------------------------------#
+  #     Database configuration     #
+  #--------------------------------#
+  host: "192.168.1.133"
+  database: "TRADE_DB_UAT"
+  user: "root"
+  password: "123456"
+  port: 3306
+
+  #--------------------------------#
+  #     specifying data path       #
+  #--------------------------------#
+  #dataPath and outputPath use absolute path
+  dataPath: "./inputdata/"
+  outputPath: "./outputdata/"
+
+  #--------------------------------#
+  #     data analytics             #
+  #--------------------------------#
+  his_daynum_set: [10,20,30,40,50]
+
+  initialDate_analytics: "2019-04-01"
+
+  endDate_analytics: "2019-04-12"
+  #--------------------------------#
+  #     logging                    #
+  #--------------------------------#
+  logging_level: "DEBUG"
+uat:
+  #--------------------------------#
+  #     system configuration       #
+  #--------------------------------#
+  intervel_time: "1-day"
+  his_time_length: 200
+  initialDate: "1996-01-01"
+  curDate: "2019-01-23"
+
+
+  #--------------------------------#
+  #     Database configuration     #
+  #--------------------------------#
+  host: "192.168.1.133"
+  database: "TRADE_DB_UAT"
+  user: "root"
+  password: "123456"
+  port: 3306
+
+  #--------------------------------#
+  #     specifying data path       #
+  #--------------------------------#
+  #dataPath and outputPath use absolute path
+  dataPath: "/opt/YEvoAI/inputdata/"
+  outputPath: "/opt/YEvoAI/outputdata/"
+
+  #--------------------------------#
+  #     data analytics             #
+  #--------------------------------#
+  his_daynum_set: [10,20,30,40,50]
+
+  initialDate_analytics: "2018-04-01"
+
+  endDate_analytics: "2019-04-12"
+  #--------------------------------#
+  #     logging                    #
+  #--------------------------------#
+  logging_level: "DEBUG"
+prd:
+  #--------------------------------#
+  #     system configuration       #
+  #--------------------------------#
+  intervel_time: "1-day"
+  his_time_length: 100
+  initialDate: "1996-01-01"
+  curDate: "2019-01-23"
+
+
+  #--------------------------------#
+  #     Database configuration     #
+  #--------------------------------#
+  host: "192.168.1.133"
+  database: "TRADE_DB_UAT"
+  user: "root"
+  password: "123456"
+  port: 3306
+
+  #--------------------------------#
+  #     specifying data path       #
+  #--------------------------------#
+  #dataPath and outputPath use absolute path
+  dataPath: "./inputdata/"
+  outputPath: "./outputdata/"
+
+  #--------------------------------#
+  #     data analytics             #
+  #--------------------------------#
+  his_daynum_set: [10,20,30,40,50]
+
+  initialDate_analytics: "2019-04-01"
+
+  endDate_analytics: "2019-04-12"
+  #--------------------------------#
+  #     logging                    #
+  #--------------------------------#
+  logging_level: "DEBUG"
+
